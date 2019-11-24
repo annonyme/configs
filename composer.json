@@ -1,0 +1,32 @@
+{
+    "name": "annonyme/config",
+    "description": "Config-container for multi-module environments.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Hannes Pries",
+            "email": "hp@hannespries.de",
+            "homepage": "https://www.hannespries.de"
+        }
+    ],
+    "repositories": [
+        {"type": "vcs", "url": "https://github.com/annonyme/events"}
+    ],
+    "require": {
+        "php": ">=7.1",
+        "annonyme/events": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "hannespries": "src/"
+        },
+        "psr-4": {
+            "hannespries\\": "src/"
+        }
+    }
+}
