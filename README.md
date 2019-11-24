@@ -7,5 +7,5 @@ $configValues = ['test' => 'blubb23'];
 $moduleName = 'TestModule';
 Configs::instance()->add($moduleName, $configValues);
 
-$configValue = Configs::instance()->getConfig('TestModule')->get('test')
+$configValue = Configs::instance()->getConfig('TestModule')->get('test');
 ```
